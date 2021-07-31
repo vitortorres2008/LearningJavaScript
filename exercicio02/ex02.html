@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex02.css">
+    <title>Verificador de idade</title>
+</head>
+<body id="corpo">
+ <header>Verificador de Idade</header>
+ <section>
+          <p>Ano de Nascimento: <input type="number" name="ano" id="ano" min="0"></p>
+          <p><input type="radio" id="masc" name="gen" value="Masculino" checked>
+          <label for="male">Masculino</label>
+          <input type="radio" id="fem" name="gen" value="Feminino">
+          <label for="female">Feminino</label><br/><br/>
+          <input type="button" value="Verificar" onclick="verificar()"></p>
+          <div id="res">Preencha os dados acima para ver o resultado!</div>
+</section>
+  <footer>©Torrão Developer</footer>  
+</body>
+<script src="ex02.js"></script>
+</html>

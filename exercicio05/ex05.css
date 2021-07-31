@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(0, 162, 255);
+}
+
+header {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section {
+    background: white;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 35px;
+    box-shadow: 2px 2px 1px rgb(73, 70, 70);
+    font-size: 15pt;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}
+
+select#seln {
+    width: 170px;
+}

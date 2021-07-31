@@ -1,0 +1,36 @@
+body{
+    background-color: burlywood;
+}
+header{
+    font-size: 35px;
+    padding-top: 100px;
+    text-align: center;
+}
+section{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    left: 710px;
+    border-radius: 35px;
+    box-shadow: 2px 2px 1px rgb(73, 70, 70);
+
+}
+footer{
+    text-align: center;
+    padding-top: 510px;
+    font-size: 20px;
+}
+div#titu{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 125px;
+}
